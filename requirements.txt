@@ -2,7 +2,6 @@
 # $ conda create --name <env> --file <this file>
 # $ conda activate <env>
 # $ pip install argparse
-# platform: win-64
 brotlipy=0.7.0=py310h2bbff1b_1002
 bzip2=1.0.8=he774522_0
 ca-certificates=2022.10.11=haa95532_0
