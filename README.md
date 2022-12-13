@@ -1,28 +1,33 @@
-#NGSX Grafana Dashboards
+# NGSX Grafana Dashboards
 ----------------------------------
 
-##Using Executable (.exe)
-###Run
-* Execute: grafana.exe 
+## Using Executable (.exe)
+Run: grafana.exe 
 
-###Advanced Execution
+Advanced Execution
 Example:
-- grafana.exe -b --orgs 0
-- grafana.exe -u --orgs 21 --dashboards 0
-- grafana.exe -c --orgs 22 --tags 5,15
+
+<code> grafana.exe -b --orgs 0 </code>
+
+<code> grafana.exe -u --orgs 21 --dashboards 0 </code>
+
+<code> grafana.exe -c --orgs 22 --tags 5,15 </code>
 
 ----------------------------------
-##Using Python
-###Instalation
+## Using Python
+### Instalation
 * Install Miniconda
-* conda create --name <env> --file requirements.txt
-* conda activate <env>
+- $ conda create --name env --file requirements.txt
+- $ conda activate env
+- $ pip install argparse
 
-###Run
-* Execute main file: python grafana_main.py
+Run: Execute main file: python grafana_main.py
 
-###Advanced Execution
+Advanced Execution
 Example:
-- python grafana_main.py -b --orgs 0
-- python grafana_main.py -u --orgs 21 --dashboards 0
-- python grafana_main.py -c --orgs 22 --tags 5,15
+
+<code> python grafana_main.py -b --orgs 0 </code>
+
+<code> python grafana_main.py -u --orgs 21 --dashboards 0 </code>
+
+<code> python grafana_main.py -c --orgs 22 --tags 5,15 </code>
