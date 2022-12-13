@@ -1,0 +1,13 @@
+*JsonFiles/
+env/
+*_env/
+.vscode/
+.vs/
+__pycache__/
+.project
+.pydevproject
+*.cer
+*.crt
+dist
+build
+*.spec
